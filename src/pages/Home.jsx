@@ -1,5 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import HomeHero from '../components/Home/HomeHero';
+import HomeIntro from '../components/Home/HomeIntro';
+import HomeBenefits from '../components/Home/HomeBenefits';
+import HomeHowWorks from '../components/Home/HomeHowWorks';
+import HomeCarRates from '../components/Home/HomeCarRates';
+import HomeFeatures from '../components/Home/HomeFeatures';
 
 export default function Home() {
     return (
@@ -10,28 +16,13 @@ export default function Home() {
                 <link rel="canonical" href="https://example.com/" />
             </Helmet>
 
-            <section className="hero-section">
-                <div className="hero-content">
-                    <h1 className="gradient-text">Drive the Future</h1>
-                    <p className="subtitle">Explore our collection of premium vehicles designed for the ultimate driving experience.</p>
-                    <button className="primary-btn pulse-glow">View Collection</button>
-                </div>
-            </section>
-
-            <section className="features-section">
-                <div className="feature-card glass-panel">
-                    <h2>Luxury</h2>
-                    <p>Uncompromising comfort and prestige.</p>
-                </div>
-                <div className="feature-card glass-panel">
-                    <h2>Performance</h2>
-                    <p>Engineered for speed and agility.</p>
-                </div>
-                <div className="feature-card glass-panel">
-                    <h2>Innovation</h2>
-                    <p>State-of-the-art technology at your fingertips.</p>
-                </div>
-            </section>
+            <HomeHero />
+            <HomeIntro />
+            <HomeCarRates />
+            <HomeHowWorks />
+            <HomeBenefits />
+            {/* Keeping the old HomeFeatures at the bottom or it can be replaced by benefits */}
+            <HomeFeatures />
         </div>
     );
 }
