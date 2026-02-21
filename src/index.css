@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   --bg-color: #0a0a0c;
   --text-primary: #f0f0f5;
@@ -24,7 +26,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   background-image: radial-gradient(circle at top right, rgba(188, 0, 221, 0.1), transparent 40%),
-                    radial-gradient(circle at bottom left, rgba(0, 229, 255, 0.1), transparent 40%);
+    radial-gradient(circle at bottom left, rgba(0, 229, 255, 0.1), transparent 40%);
 }
 
 a {
@@ -58,6 +60,13 @@ a:hover {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
