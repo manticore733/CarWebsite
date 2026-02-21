@@ -4,7 +4,7 @@ export default function HomeHowWorks() {
     return (
         <section className="py-20 px-6 max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center text-white">How It Works</h2>
-            <div className="flex flex-col md:flex-row gap-8 relative before:absolute before:inset-0 before:top-1/2 before:h-0.5 before:bg-[var(--glass-border)] before:-z-10 hidden md:block">
+            <div className="relative before:absolute before:inset-0 before:top-1/2 before:h-0.5 before:bg-[var(--glass-border)] before:-z-10">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {[
                         { step: '1', title: 'Select Vehicle', desc: 'Browse our extensive collection.' },
