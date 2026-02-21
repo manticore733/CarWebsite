@@ -6,7 +6,8 @@ export default function HomeHero() {
             <div className="hero-content">
                 <h1 className="gradient-text">Drive the Future</h1>
                 <p className="subtitle">Explore our collection of premium vehicles designed for the ultimate driving experience.</p>
-                <button className="primary-btn pulse-glow">View Collection</button>
+                <button className="primary-btn pulse-glow">View our Collection</button>
+                <p> Hello </p>
             </div>
         </section>
     );
