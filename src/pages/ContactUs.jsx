@@ -1,13 +1,14 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/Shared/SEO';
 
 export default function ContactUs() {
     return (
         <div className="light-theme-page fade-in">
-            <Helmet>
-                <title>Contact Tele's Car Hire | Get in Touch Today</title>
-                <meta name="description" content="Have questions about our car rentals? Contact Tele's Car Hire today for bookings, support, and inquiries about our premium fleet in paradise." />
-            </Helmet>
+            <SEO
+                title="Get in Touch Today"
+                description="Have questions about our car rentals? Contact Tele's Car Hire today for bookings, support, and inquiries about our premium fleet in paradise."
+                keywords="contact us, car rental support, booking inquiry"
+            />
 
             <div className="light-content-card">
                 <h1 className="fleet-title mb-6">Get in Touch</h1>

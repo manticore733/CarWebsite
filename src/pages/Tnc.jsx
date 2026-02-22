@@ -1,13 +1,14 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/Shared/SEO';
 
 export default function Tnc() {
     return (
         <div className="page-container fade-in">
-            <Helmet>
-                <title>Terms and Conditions | Tele's Car Hire</title>
-                <meta name="description" content="Read the terms and conditions for renting a vehicle from Tele's Car Hire. Learn about insurance, driver qualifications, and our rental policies." />
-            </Helmet>
+            <SEO
+                title="Terms and Conditions"
+                description="Read the terms and conditions for renting a vehicle from Tele's Car Hire. Learn about insurance, driver qualifications, and our rental policies."
+                keywords="terms and conditions, rental policy, car hire agreement"
+            />
 
             <div className="content-wrapper glass-panel mt-10 max-w-4xl mx-auto">
                 <h1 className="gradient-text text-4xl font-bold mb-8">Terms and Conditions</h1>

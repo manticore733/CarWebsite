@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/Shared/SEO';
 
 const FleetSection = ({ label, title, description, tags, price, image, reverse = false }) => {
     return (
@@ -92,10 +92,11 @@ export default function VehiclesAndRates() {
 
     return (
         <div className="agency-fleet-page">
-            <Helmet>
-                <title>Check Out Our Fleet | Tele's Car Hire</title>
-                <meta name="description" content="Explore our Suzuki Swift collection. Affordable rental rates in paradise starting from €45/day." />
-            </Helmet>
+            <SEO
+                title="Check Out Our Fleet"
+                description="Explore our Suzuki Swift collection. Affordable rental rates in paradise starting from €45/day."
+                keywords="car fleet, Suzuki Swift, affordable car rental, vehicle rates"
+            />
 
             <div className="fleet-container">
                 {fleet.map((car, index) => (
