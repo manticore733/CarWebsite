@@ -7,10 +7,15 @@ import VehiclesAndRates from './pages/VehiclesAndRates'
 import ContactUs from './pages/ContactUs'
 import Tnc from './pages/Tnc'
 import './App.css'
+import { useEffect } from 'react'
 
 function App() {
   const location = useLocation();
   const isHome = location.pathname === '/';
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   return (
     <div className="app-container">
