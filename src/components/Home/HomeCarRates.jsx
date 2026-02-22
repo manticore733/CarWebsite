@@ -29,7 +29,7 @@ export default function HomeCarRates() {
                 <div className="flex flex-col items-center mb-[80px] text-center text-black">
                     <span className="section-subtitle">Prestige Collection</span>
                     <h2 className="section-title mb-[20px]">Our Car Rates</h2>
-                    <p className="text-secondary text-lg max-w-xl leading-relaxed font-semibold">
+                    <p className="text-secondary text-lg max-w-xl leading-relaxed font-semibold" style={{ marginBottom: '20px' }}>
                         Hand-selected vehicles maintained to the highest standards of performance and aesthetics.
                     </p>
                 </div>
