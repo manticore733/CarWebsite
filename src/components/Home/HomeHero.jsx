@@ -10,9 +10,9 @@ export default function HomeHero() {
 
             {/* 2. Mix the local style and the global 'fade-in' class */}
             <div className={`${styles['tesla-hero-text']} fade-in`}>
-                <h1 className={styles['tesla-title']}>Porsche 911</h1>
-                <p className={styles['tesla-subtitle']}>1.99% APR Financing Ending August 31</p>
-                <p className={styles['tesla-description']}>From $34,990</p>
+                <h1 className={styles['tesla-title']}>Tele's Car Hire</h1>
+                <p className={styles['tesla-subtitle']}>Your best ride in Paradise</p>
+                <p className={styles['tesla-description']}>Starting from €45.00 / Day</p>
             </div>
 
             <div className={`${styles['tesla-buttons']} fade-in`} style={{ animationDelay: '0.3s' }}>
