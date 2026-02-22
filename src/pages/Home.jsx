@@ -2,10 +2,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import HomeHero from '../components/Home/HomeHero';
 import HomeIntro from '../components/Home/HomeIntro';
-import HomeBenefits from '../components/Home/HomeBenefits';
-import HomeWhyUs from '../components/Home/HomeWhyUs';
 import HomeHowWorks from '../components/Home/HomeHowWorks';
 import HomeFeatures from '../components/Home/HomeFeatures';
+import HomeCarRates from '../components/Home/HomeCarRates';
 
 export default function Home() {
     return (
@@ -17,15 +16,10 @@ export default function Home() {
             </Helmet>
 
             <HomeHero />
-
-            <div className="home-sections-container page-container">
-                <HomeIntro />
-                <HomeWhyUs />
-                <HomeHowWorks />
-                <HomeBenefits />
-                {/* Keeping the old HomeFeatures at the bottom or it can be replaced by benefits */}
-                <HomeFeatures />
-            </div>
+            <HomeIntro />
+            <HomeFeatures />
+            <HomeHowWorks />
+            <HomeCarRates />
         </div>
     );
 }
