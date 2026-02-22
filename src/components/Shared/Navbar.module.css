@@ -42,7 +42,7 @@
     display: flex;
     gap: 1.5rem;
     flex: 2;
-    justify-content: center;
+    margin-left: 87px;
 }
 
 .nav-links a {
