@@ -5,8 +5,8 @@ export default function Tnc() {
     return (
         <div className="page-container fade-in">
             <Helmet>
-                <title>Terms and Conditions | CarWebsite</title>
-                <meta name="description" content="Terms and Conditions for renting from CarWebsite." />
+                <title>Terms and Conditions | Tele's Car Hire</title>
+                <meta name="description" content="Read the terms and conditions for renting a vehicle from Tele's Car Hire. Learn about insurance, driver qualifications, and our rental policies." />
             </Helmet>
 
             <div className="content-wrapper glass-panel mt-10 max-w-4xl mx-auto">

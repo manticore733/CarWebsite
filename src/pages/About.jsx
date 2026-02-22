@@ -6,8 +6,8 @@ export default function About() {
     return (
         <div className="page-container fade-in">
             <Helmet>
-                <title>About Us | CarWebsite</title>
-                <meta name="description" content="Learn more about CarWebsite, our mission to provide top-tier automotive experiences, and our history." />
+                <title>About Tele's Car Hire | Our Story and Mission</title>
+                <meta name="description" content="Discover the story behind Tele's Car Hire. Our mission is to provide premium, reliable vehicle rentals for the ultimate island experience in paradise." />
                 <link rel="canonical" href="https://example.com/about" />
             </Helmet>
 

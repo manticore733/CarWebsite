@@ -1,0 +1,85 @@
+/* HomeHero.module.css */
+
+.tesla-hero-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tesla-hero-text {
+    text-align: center;
+    margin-top: 15vh;
+    z-index: 10;
+}
+
+.tesla-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.tesla-subtitle {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.tesla-description {
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    font-weight: 400;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.tesla-buttons {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 8vh;
+    z-index: 10;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Keeping these here just in case you add buttons back in! */
+.tesla-btn {
+    padding: 0.8rem 4rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    min-width: 250px;
+    text-align: center;
+}
+
+.tesla-btn-primary {
+    background-color: #f4f4f4;
+    color: #393c41;
+}
+
+.tesla-btn-primary:hover {
+    background-color: #fff;
+}
+
+.tesla-btn-secondary {
+    background-color: rgba(34, 34, 34, 0.65);
+    color: #fff;
+    backdrop-filter: blur(4px);
+}
+
+.tesla-btn-secondary:hover {
+    background-color: rgba(34, 34, 34, 0.85);
+}
