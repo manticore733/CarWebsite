@@ -14,7 +14,7 @@ export default function Tnc() {
                 <h1 className="gradient-text text-4xl font-bold mb-8">Terms and Conditions</h1>
 
                 <div className="space-y-8 text-[#a0a0b0] leading-relaxed">
-                    <p className="border-l-4 border-[#3b82f6] pl-4 py-2 italic font-medium text-black" style={{ marginBottom: '10px' }}>
+                    <p className="border-l-4 border-[#3b82f6] pl-4 py-2 italic font-medium text-black" style={{ marginBottom: '10px', paddingLeft: '7px' }}>
                         The person hiring the car (hereinafter called the Hirer) agrees with TELE’s Car Hire (hereinafter called the Owner) that any motor Vehicle (hereinafter called the Vehicle) hired to the hirer by the Owners shall be hired subject to the following terms and conditions.
                     </p>
 
