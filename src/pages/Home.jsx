@@ -11,8 +11,8 @@ export default function Home() {
     return (
         <div className="page-container fade-in">
             <Helmet>
-                <title>CarWebsite - Premium Auto Experience</title>
-                <meta name="description" content="Discover the best luxury and sports cars at CarWebsite. Your premium automotive experience starts here." />
+                <title>Tele's Car Hire | Your Best Ride in Paradise</title>
+                <meta name="description" content="Experience the ultimate luxury car rental with Tele's Car Hire. Your premium automotive journey in paradise begins here." />
                 <link rel="canonical" href="https://example.com/" />
             </Helmet>
 

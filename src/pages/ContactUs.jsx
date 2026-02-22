@@ -3,32 +3,36 @@ import { Helmet } from 'react-helmet-async';
 
 export default function ContactUs() {
     return (
-        <div className="page-container fade-in">
+        <div className="light-theme-page fade-in">
             <Helmet>
-                <title>Contact Us | CarWebsite</title>
-                <meta name="description" content="Get in touch with the CarWebsite team." />
+                <title>Contact Tele's Car Hire | Get in Touch Today</title>
+                <meta name="description" content="Have questions about our car rentals? Contact Tele's Car Hire today for bookings, support, and inquiries about our premium fleet in paradise." />
             </Helmet>
 
-            <div className="content-wrapper glass-panel mt-10">
-                <h1 className="gradient-text text-4xl font-bold mb-6">Contact Us</h1>
-                <p className="text-xl text-[#a0a0b0] mb-8">
-                    We're here to help. Send us a message and we'll respond as soon as possible.
+            <div className="light-content-card">
+                <h1 className="fleet-title mb-6">Get in Touch</h1>
+                <p className="fleet-para mb-10">
+                    We're here to help you get the best ride in paradise. Send us a message and our team will get back to you within 24 hours.
                 </p>
 
-                <form className="flex flex-col gap-6 max-w-lg">
-                    <div>
-                        <label className="block text-sm font-medium text-[#a0a0b0] mb-2">Name</label>
-                        <input type="text" className="w-full bg-[rgba(255,255,255,0.05)] border border-[var(--glass-border)] rounded-lg p-3 text-white focus:outline-none focus:border-[var(--accent-color)]" />
+                <form className="flex flex-col gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <label className="light-label">Full Name</label>
+                            <input type="text" placeholder="John Doe" className="light-input" />
+                        </div>
+                        <div>
+                            <label className="light-label">Email Address</label>
+                            <input type="email" placeholder="john@example.com" className="light-input" />
+                        </div>
                     </div>
+
                     <div>
-                        <label className="block text-sm font-medium text-[#a0a0b0] mb-2">Email</label>
-                        <input type="email" className="w-full bg-[rgba(255,255,255,0.05)] border border-[var(--glass-border)] rounded-lg p-3 text-white focus:outline-none focus:border-[var(--accent-color)]" />
+                        <label className="light-label">Your Message</label>
+                        <textarea rows="3" placeholder="How can we help you?" className="light-input"></textarea>
                     </div>
-                    <div>
-                        <label className="block text-sm font-medium text-[#a0a0b0] mb-2">Message</label>
-                        <textarea rows="4" className="w-full bg-[rgba(255,255,255,0.05)] border border-[var(--glass-border)] rounded-lg p-3 text-white focus:outline-none focus:border-[var(--accent-color)]"></textarea>
-                    </div>
-                    <button type="button" className="primary-btn self-start py-3 px-8">Send Message</button>
+
+                    <button type="button" className="agency-book-btn agency-btn-sm self-start">Send Message</button>
                 </form>
             </div>
         </div>
