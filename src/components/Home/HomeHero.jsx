@@ -1,20 +1,23 @@
 import React from 'react';
+import heroImage from "../../assets/image.png";
+import carImage from "../../assets/cc.png";
+import styles from './HomeHero.module.css';
 
 export default function HomeHero() {
-    const carImage = "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1200";
 
     return (
-        <section className="hero-section">
-            <div className="decorative-glow-1"></div>
-            <div className="decorative-glow-2"></div>
-            <div className="hero-content fade-in">
-                <div className="hero-image-container">
-                    <img src={carImage} alt="Premium Car" className="hero-car-image" />
-                </div>
-                <h1 className="gradient-text">Tele's Car Hire</h1>
-                <p className="subtitle">Your best ride in paradise</p>
-                <button className="primary-btn pulse-glow">View our Collection</button>
+        <section className={styles['tesla-hero-section']} style={{ backgroundImage: `url(${carImage})` }}>
+
+            {/* 2. Mix the local style and the global 'fade-in' class */}
+            <div className={`${styles['tesla-hero-text']} fade-in`}>
+                <h1 className={styles['tesla-title']}>Porsche 911</h1>
+                <p className={styles['tesla-subtitle']}>1.99% APR Financing Ending August 31</p>
+                <p className={styles['tesla-description']}>From $34,990</p>
             </div>
+
+            <div className={`${styles['tesla-buttons']} fade-in`} style={{ animationDelay: '0.3s' }}>
+            </div>
+
         </section>
     );
 }

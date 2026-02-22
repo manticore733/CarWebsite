@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Shared/Navbar'
 import Footer from './components/Shared/Footer'
 import Home from './pages/Home'
@@ -9,11 +9,14 @@ import Tnc from './pages/Tnc'
 import './App.css'
 
 function App() {
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+
   return (
     <div className="app-container">
       <Navbar />
 
-      <main className="main-content">
+      <main className={isHome ? "main-content-home" : "main-content"}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/vehicles" element={<VehiclesAndRates />} />
