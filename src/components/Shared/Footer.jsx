@@ -11,7 +11,11 @@ export default function Footer() {
                             TELE'S<span className="text-outline-small text-transparent ml-1" style={{ WebkitTextStroke: '1px rgba(255,255,255,0.4)' }}>CAR HIRE</span>
                         </Link>
                         <p className="text-white/60 max-w-sm text-lg leading-relaxed font-medium" style={{ marginBottom: '10px' }}>
-                            Redefining luxury mobility. We provide an exclusive selection of the world's finest vehicles for those who demand excellence in every journey.
+                            Get in touch with us
+                            <br />
+                            Email:  rent@telecarhire.com
+                            <br />
+                            Call us:   +248 2570079
                         </p>
                     </div>
 
